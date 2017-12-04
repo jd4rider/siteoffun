@@ -1,4 +1,4 @@
-//document.getElementsByTagName("html")[0].style.visibility = "hidden";
+document.getElementsByTagName("html")[0].style.visibility = "hidden";
 
 //items to be put straight in dom
 var metamobile=document.createElement('meta');
@@ -24,7 +24,7 @@ var stylejs = 'stylejs.js';
 
 var listofelems = [meta, metamobile, bslink];
 
-var list = [ [jqlink, 'jquery', '3.1.1'],  [babeljs, 'babel', '6.0'], [tetherjs, 'tether', '1.3.2'], [bsjslink, 'bootstrapjs', '4.0.0']];
+var list = [ [jqlink, 'jquery', '3.1.1'], [babeljs, 'babel', '6.0'], [tetherjs, 'tether', '1.3.2'], [bsjslink, 'bootstrapjs', '4.0.0']];
 
 var x = 0;
 
